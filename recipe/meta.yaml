@@ -1,5 +1,5 @@
 {% set name = "marsilea" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/marsilea-{{ version }}.tar.gz
-  sha256: 8c935bc3cc9cd4b3c87c2ad375cd2dfd5625e72bd787244ef1200d1a60412089
+  sha256: f58196edbfc7fc2cec819be14fb112dd9054f4149089f257c9436c97ed275855
 
 build:
   noarch: python
