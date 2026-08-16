@@ -23,6 +23,8 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - pandas
+    # pandas[parquet] extra, needed by marsilea.dataset for read_parquet
+    - pyarrow
     - matplotlib-base >=3.6
     - seaborn
     - scipy
@@ -32,6 +34,7 @@ requirements:
 test:
   imports:
     - marsilea
+    - oncoprinter
   commands:
     - pip check
   requires:

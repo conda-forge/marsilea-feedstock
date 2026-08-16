@@ -1,0 +1,5 @@
+# marsilea declares requires-python = ">=3.11", which is higher than the
+# global conda-forge python_min. Without this override the noarch build env
+# gets Python 3.10 and pip refuses to install the package.
+python_min:
+  - "3.11"
