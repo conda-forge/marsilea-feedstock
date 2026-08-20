@@ -1,5 +1,5 @@
 {% set name = "marsilea" %}
-{% set version = "0.7.0.post1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/marsilea-{{ version }}.tar.gz
-  sha256: a0a073f1b502775b62d6f896294a47edccfbbd14a4151c04b3ead2c1c9843204
+  sha256: a713b665b5f5a4972bcee838bd127ff0707ca19c73595c54f20c81b30b28e90c
 
 build:
   noarch: python
